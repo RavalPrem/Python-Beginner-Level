@@ -62,7 +62,4 @@ print('Using lstrip :',str8.lstrip('abc'))
 str9 = "Hello Python"
 print('\nThe string :',str9)
 print('''Using the swapcase :''',str9.swapcase()) #string can also written in 3 invited comma
-
-
-
 print('\n')

@@ -40,4 +40,20 @@ for i in range(1,5):
         a+=1
     print()
 
+print('\n\n Print pyramid with characters ! ')
+for i in range(1,6):
+    for j in range(1,i+1):
+        print(chr(64 + j), end=' ')
+    print()
+
+
+#using the pass keyword in for loop
+print('\n\n Using the pass keyword')
+ls1 = [101,102,103,104,105]
+for i in ls1:
+    if i == 102:
+        pass
+    else:
+        print(i,end=' ')
+        
 print('\n')
